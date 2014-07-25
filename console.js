@@ -1,3 +1,9 @@
+/*******************************************************************************
+* console.js - 兼容IE的模拟控制台
+*
+* @author Adam <adamzhou@ghy.cn>
+* @version 1.0.0 (2014-07-25)
+*******************************************************************************/
 (function(){
 document.onselect = false;
 function bind(elm,action,listener){
